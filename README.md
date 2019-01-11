@@ -100,7 +100,7 @@ More perlin noise, this time making a plane of dots that undulates in three dime
 Convert images to ascii art.
 
 ### `swirlportrait`
-![todo:add]()
+![swirlportrait](https://raw.githubusercontent.com/brandon-gong/processing-sketches/master/swirlportrait/frame.png)
 Convert images into swirly, weird things.  The swirl gets thicker and thinner to reflect the darkness of the
 picture.  The further you stand and look at it, the clearer you see the image.
 
