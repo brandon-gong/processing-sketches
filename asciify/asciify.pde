@@ -1,8 +1,8 @@
 void setup() {
     PImage img = loadImage("test.jpg");
     img.filter(GRAY);
-    img.filter(INVERT);
-    img.resize(75, img.height/img.width * 63);
+    //img.filter(INVERT);
+    img.resize(75, img.height/img.width * 56);
     for(int i = 0; i < img.height; i++) {
         for(int j = 0; j < img.width; j++) {
             int c = round(green(img.get(j, i)));
