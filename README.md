@@ -33,3 +33,19 @@ nice-looking behavior and interplay between the particles.
 ![ripples](https://raw.githubusercontent.com/brandon-gong/processing-sketches/master/ripples/frame.png)
 Still using perlin noise, a series of concentric yet gradually changing perlin rings are drawn on the screen.
 The end result to me looks something like ripples in fabric or water; it has a very organic feel to it.
+
+### `dotfield`
+![dotfield](dotifle/frame.jpg)
+More perlin noise, this time making a plane of dots that undulates in three dimensions.
+
+### `asciify`
+```
+
+```
+Convert images to ascii art.
+
+### `swirlportrait`
+![todo:add]()
+Convert images into swirly, weird things.  The swirl gets thicker and thinner to reflect the darkness of the
+picture.  The further you stand and look at it, the clearer you see the image.
+

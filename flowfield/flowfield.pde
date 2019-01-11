@@ -1,4 +1,4 @@
-Particle[] particles = new Particle[2000];
+Particle[] particles = new Particle[4000];
 PGraphics bg;
 
 int fgc = color(253, 246, 227);
