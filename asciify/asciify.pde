@@ -1,7 +1,7 @@
 void setup() {
     PImage img = loadImage("test.jpg");
     img.filter(GRAY);
-    //img.filter(INVERT);
+    img.filter(INVERT);
     img.resize(75, img.height/img.width * 56);
     for(int i = 0; i < img.height; i++) {
         for(int j = 0; j < img.width; j++) {

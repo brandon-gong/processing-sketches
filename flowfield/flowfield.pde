@@ -1,14 +1,14 @@
 Particle[] particles = new Particle[4000];
 PGraphics bg;
 
-int fgc = color(253, 246, 227);
-int bgc = color(0, 43, 54);
-int tc = color(108, 113, 196);
+int bgc = color(255, 255, 255);
+int fgc = color(0, 0, 0);
+int tc = color(255, 204, 0);
 
 void setup() {
     background(bgc);
     fullScreen();
-    fill(0,43,54, 2);
+    fill(255,255,255, 2);
     for(int i = 0; i < particles.length; i++) {
         particles[i] = new Particle();
     }
@@ -18,7 +18,7 @@ void setup() {
     bg.textAlign(CENTER, CENTER);
     bg.fill(255);
     bg.stroke(255);
-    bg.text("Brandon", width/2, height/2);
+    bg.text("Emily Sun", width/2, height/2);
     bg.endDraw();
     println(bg.pixels.length);
 }
