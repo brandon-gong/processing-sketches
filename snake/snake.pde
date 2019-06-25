@@ -87,7 +87,7 @@ void draw() {
         redrawTile(head_x, head_y, DEATH_COLOR);
         isDead=true;
     }
-    for(int i = 0; i < body_positions.size() - 3; i+=2) {
+    for(int i = 0; i < body_positions.size() - 4; i+=2) {
         if(body_positions.get(i) == head_x) {
             if(body_positions.get(i+1) == head_y) {
                 redrawTile(head_x, head_y, DEATH_COLOR);
